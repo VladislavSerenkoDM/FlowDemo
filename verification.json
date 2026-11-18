@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "version": "short-flow-with-info-intro-and-three-original-sequences",
+  "checks": [
+    "group remains until tapped",
+    "tap on group opens intro info on step 02",
+    "info uses latest user screenshot",
+    "old tutorial removed",
+    "one tap anywhere closes info and stays in event",
+    "repeat event visit does not reopen intro",
+    "manual info can be opened and closed",
+    "Space and Enter close info",
+    "reset enables intro again",
+    "direct sidebar entry starts intro",
+    "short route unchanged",
+    "victory sequence autoplays once",
+    "victory last frame holds until tap",
+    "victory re-entry replays sequence",
+    "statistics sequence autoplays once",
+    "statistics last frame holds until tap",
+    "statistics re-entry replays sequence",
+    "result sequences can be skipped immediately",
+    "all result videos embedded muted without controls",
+    "embedded event video autoplay",
+    "muted event video without controls",
+    "event animation plays once",
+    "last frame holds in event",
+    "next cycle replays event animation",
+    "event animation can be skipped",
+    "info branch returns",
+    "home and reset",
+    "mobile width",
+    "no browser errors",
+    "no external resources"
+  ],
+  "resultVideos": {
+    "victory": {
+      "embedded": true,
+      "time": 0.2028,
+      "duration": 2.791667,
+      "muted": true,
+      "loop": false,
+      "controls": false,
+      "width": 1600,
+      "height": 720
+    },
+    "stats": {
+      "embedded": true,
+      "time": 0.1589,
+      "duration": 5.5,
+      "muted": true,
+      "loop": false,
+      "controls": false,
+      "width": 1600,
+      "height": 720
+    }
+  },
+  "video": {
+    "time": 0.2852,
+    "duration": 4.541667,
+    "muted": true,
+    "loop": false,
+    "controls": false,
+    "width": 1600,
+    "height": 720
+  },
+  "errors": []
+}
